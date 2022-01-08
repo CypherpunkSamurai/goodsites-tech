@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<script src="//archive.org/includes/analytics.js?v=cf34f82" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app210.us.archive.org';v.server_ms=291;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript" src="/_static/js/bundle-playback.js?v=rQCmsv02" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=UHAOicsW" charset="utf-8"></script>
+<script type="text/javascript">
+  __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://www.goodsites.tech/OP","20211126043322","https://web.archive.org/","web","/_static/",
+	      "1637901202");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=fantwOh2" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=qtvMKcIJ" />
+<!-- End Wayback Rewrite JS Include -->
+<title>GGS - OP Images</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://web.archive.org/web/20211126043322cs_/https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+<body>
+
+<h2 class="w3-center">OP Images</h2>
+
+<div class="w3-content w3-display-container">
+  <a href="ggs10.jpg"><img class="mySlides" src="/web/20211126043322im_/http://www.goodsites.tech/ggs10.jpg" style="width:100%"></a>
+  <a href="ggs11.jpg"><img class="mySlides" src="/web/20211126043322im_/http://www.goodsites.tech/ggs11.jpg" style="width:100%"></a>
+  <a href="ggs12.jpg"><img class="mySlides" src="/web/20211126043322im_/http://www.goodsites.tech/ggs12.jpg" style="width:100%"></a>
+  <a href="ggs13.jpg"><img class="mySlides" src="/web/20211126043322im_/http://www.goodsites.tech/ggs13.jpg" style="width:100%"></a>
+  <a href="ggs14.jpg"><img class="mySlides" src="/web/20211126043322im_/http://www.goodsites.tech/ggs14.jpg" style="width:100%"></a>
+
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+
+<br>
+<center><h3><a href="https://web.archive.org/web/20211126043322/https://www.goodsites.tech/">Go back home</a></h3></center>
+
+</body>
+</html>
+<!--
+     FILE ARCHIVED ON 04:33:22 Nov 26, 2021 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 19:12:28 Jan 08, 2022.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 125.143
+  exclusion.robots: 0.107
+  exclusion.robots.policy: 0.099
+  RedisCDXSource: 2.766
+  esindex: 0.009
+  LoadShardBlock: 102.546 (3)
+  PetaboxLoader3.datanode: 105.454 (4)
+  CDXLines.iter: 17.076 (3)
+  load_resource: 162.194
+  PetaboxLoader3.resolve: 99.673
+-->

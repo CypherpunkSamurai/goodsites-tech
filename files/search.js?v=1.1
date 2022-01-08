@@ -1,0 +1,53 @@
+var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+  let window = _____WB$wombat$assign$function_____("window");
+  let self = _____WB$wombat$assign$function_____("self");
+  let document = _____WB$wombat$assign$function_____("document");
+  let location = _____WB$wombat$assign$function_____("location");
+  let top = _____WB$wombat$assign$function_____("top");
+  let parent = _____WB$wombat$assign$function_____("parent");
+  let frames = _____WB$wombat$assign$function_____("frames");
+  let opener = _____WB$wombat$assign$function_____("opener");
+
+function search() {
+var input, filter, ul, li, span, a, i, txtValue, title;
+input = document.getElementById("srch");
+filter = input.value.toUpperCase();
+ul = document.getElementById("sites");
+li = ul.getElementsByTagName("li");
+for (i = 0; i < li.length; i++) {
+    span = li[i].getElementsByTagName("span")[0];    
+    txtValue = span.textContent || span.innerText;
+    a = span.firstChild;
+    title = a.title;
+    if ((txtValue.toUpperCase().indexOf(filter) > -1) || (title.toUpperCase().indexOf(filter) > -1)) {
+        li[i].style.display = "";
+    } else {
+        li[i].style.display = "none";
+    }
+}
+}
+
+}
+/*
+     FILE ARCHIVED ON 17:55:26 Dec 07, 2021 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 19:12:43 Jan 08, 2022.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 1116.725
+  exclusion.robots: 0.091
+  exclusion.robots.policy: 0.084
+  RedisCDXSource: 2.204
+  esindex: 0.007
+  LoadShardBlock: 1093.713 (3)
+  PetaboxLoader3.datanode: 1087.118 (4)
+  CDXLines.iter: 16.704 (3)
+  load_resource: 439.207
+  PetaboxLoader3.resolve: 396.177
+*/
